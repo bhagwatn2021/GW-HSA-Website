@@ -1,0 +1,102 @@
+<!-- GW Hindu Students' Association Website Events Page
+By Neel Bhagwat
+George Washington University
+Start date: March 15th, 2018 -->
+<html>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+body {
+   font-family: "Lato", sans-serif;
+   background-color: #500;
+}
+button.align{
+    vertical-align: text-bottom;
+}
+.navbar-toggle {
+  width: 100%;
+  float: none;
+  margin-right: 0;
+}
+.blockquote {
+  border-radius: : 50px;
+  color: #fff;
+}
+.mySlides {
+  display:none;
+}
+</style>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Metadata for site -->
+  <title> GW || HSA </title>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="title" content="GW Hindu Students' Association"/>
+  <meta name="author" content="Neel Bhagwat">
+  <meta name="description" content=""/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!--  <meta content="GW Cyber is a student led technical organization at The George Washington University. Our focus is on educating the student body about the security of the entire systems stacks – from computer hardware, to networks, to software. The organization’s goal is to not only expose students to the vulnerabilities and applications used to exploit information technology, but also to teach students how to better guard themselves against these attacks.GW Cyber is extremely unique, as it is the first entirely student-driven information system, cyber oriented club at GW. Our meetings generally consist of workshops, led by experienced, senior members. They also consist of occasional professional guest speakers, conferences, and events. If youre interested in defending yourself in a technologically driven world, talk to us!" name="description" /> -->
+  <meta content="Hinduism George Washington University"  name="keywords" />
+
+  <!-- github
+  <meta name="github:card" content="summary" />
+  <meta name="github:title" content="GW Cyber Github Repository" />
+  <meta name="github:description" content=""/>
+  <meta name="github:url" content="https://github.com/GW-HSA" />
+  <meta name="github:image" content="" /> -->
+<li>
+<div class="container well">
+<div class="text-center">
+  <h2 class="header"> George Washington University's Hindu Students' Association</h2>
+    <h3 class="header"> Events</h3>
+<li>
+<li>
+</div>
+</head>
+
+<body style="background-color: #500;">
+  <div class="justify-content-md-center text-center blockquote container">
+  <div class="row">
+      <a class="well" href="GWHSAHomePage.html">Home</a>
+      <a class="well" href="GWHSAAboutUs.html">About Us</a>
+      <a class="well" href="GWHSAContact.html">Contact Us/ Forms</a>
+      <li>
+  </div>
+  <div class="w3-content w3-display-container well">
+    <img class="mySlides" src="Image1.jpg" style="width:100%">
+    <img class="mySlides" src="Image2.jpg" style="width:100%">
+    <img class="mySlides" src="Image3.jpg" style="width:100%">
+    <div class="col-md-* text-center">
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  var slideIndex = 1;
+  showDivs(slideIndex);
+
+  function plusDivs(n) {
+    showDivs(slideIndex += n);
+  }
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {
+    slideIndex = 1
+  }
+  if (n < 1) {
+    slideIndex = x.length
+  }
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+  </script>
+  </div>
+  </body>
+      </html>
